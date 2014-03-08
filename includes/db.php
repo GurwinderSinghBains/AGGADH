@@ -6,9 +6,9 @@
  * and open the template in the editor.
  */
 $DBServer = 'localhost'; // e.g 'localhost' or '192.168.1.100'
-$DBUser   = 'dds';
-$DBPass   = 'dds';
-$DBName   = 'dhagga';
+$DBUser   = 'root';
+$DBPass   = '123456';
+$DBName   = 'aggadh';
 
 $conn = new mysqli($DBServer, $DBUser, $DBPass, $DBName);
  
